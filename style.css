@@ -1,0 +1,48 @@
+.cells {
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(241, 218, 174);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: black solid 1px;
+    float: left;
+}
+
+.dark {
+    background-color: rgb(176, 90, 45);
+}
+
+#b2 {
+    width: 100px;
+    height: 30px;
+    margin-left: 215px;
+    margin-bottom: 10px;
+    color: rgb(241, 218, 174);
+    background-color: rgb(176, 90, 45);
+    font-weight: bold;
+    border: solid 3px rgb(105, 50, 21);
+    border-radius: 5px;
+}
+
+#b2:focus {
+    outline: none;
+}
+
+.buttons {
+    height: auto;
+    width: 300px;
+}
+
+img {
+    margin: 5px;
+}
+
+.file_block {
+    width: 250px;
+}
